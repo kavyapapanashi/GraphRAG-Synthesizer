@@ -1,0 +1,44 @@
+# Environment & Secrets (NEVER COMMIT)
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+.pytest_cache/
+
+# ChromaDB & Vector Store artifacts
+data/chroma_db/
+data/test_chroma/
+*.sqlite3
+chroma.sqlite3
+
+# Node & Frontend dependencies
+frontend/node_modules/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Portable tools & Temporary binaries
+tools/
+*.log
+*.png
+scratch_*.png
+test_*.png
+screenshot_*.png
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
